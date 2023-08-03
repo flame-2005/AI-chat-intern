@@ -4,6 +4,9 @@
     font-weight: bold;
     display:flex;
     justify-content: center;
+    position: absolute;
+    bottom: 10px;
+    height: 2vh;
 }
 
 .myStyleAcc{
@@ -132,12 +135,6 @@
 }
 
 @media (max-width: 1300px){
-    .myStyle{
-        background: purple center center;
-        background-size: cover;
-        height: 100vh;
-
-    }
     .myStyle11{
         display: block;
     }
